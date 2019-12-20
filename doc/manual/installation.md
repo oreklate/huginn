@@ -154,7 +154,7 @@ You are done installing the database and can go back to the rest of the installa
     cd /home/huginn
 
     # Clone Huginn repository
-    sudo -u huginn -H git clone https://github.com/huginn/huginn.git -b master huginn
+    sudo -u huginn -H git clone https://github.com/huginn/huginn.git -b end-of-2019-rollup huginn
 
     # Go to Huginn installation folder
     cd /home/huginn/huginn

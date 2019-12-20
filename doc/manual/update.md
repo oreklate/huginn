@@ -40,7 +40,7 @@ Get the new code
 ```
 sudo -u huginn -H git fetch --all
 sudo -u huginn -H git checkout -- Procfile
-sudo -u huginn -H git checkout master
+sudo -u huginn -H git checkout end-of-2019-rollup
 sudo -u huginn -H git pull
 ```
 
@@ -98,7 +98,7 @@ sudo -u huginn -H bundle exec rake assets:clean assets:precompile tmp:cache:clea
 
 Check for changes made to the default `Procfile`
 ```
-sudo -u huginn -H git diff $OLD_VERSION..master Procfile
+sudo -u huginn -H git diff $OLD_VERSION..end-of-2019-rollup Procfile
 ```
 
 Update your `Procfile` if the default options of the version you are using changed
@@ -110,7 +110,7 @@ sudo -u huginn -H editor Procfile
 
 Check for changes made to the example `.env`
 ```
-sudo -u huginn -H git diff $OLD_VERSION..master .env.example
+sudo -u huginn -H git diff $OLD_VERSION..end-of-2019-rollup .env.example
 ```
 
 Update your `.env` with new options or changed defaults
