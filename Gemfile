@@ -118,7 +118,7 @@ gem 'multi_xml'
 gem 'nokogiri'
 gem 'omniauth', '~> 1.9'
 gem 'rails', '~> 6.0.2.1'
-gem 'sprockets', '~> 3.7.2'
+gem 'sprockets', '~> 4'
 gem 'rails-html-sanitizer', '~> 1.2'
 gem 'rufus-scheduler', '~> 3.6', require: false
 gem 'sass-rails', '>= 6.0'
